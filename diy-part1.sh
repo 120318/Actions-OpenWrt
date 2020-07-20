@@ -16,3 +16,7 @@
 git clone https://github.com/maxlicheng/luci-app-ssr-plus.git package/luci-app-ssr-plus
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+mkdir custom_temp
+git clone https://github.com/coolsnowwolf/lede.git custom_temp/lede
+cp -r custom_temp/lede/package/lean package/lean
+
