@@ -19,4 +19,8 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 mkdir custom_temp
 git clone https://github.com/coolsnowwolf/lede.git custom_temp/lede
 cp -r custom_temp/lede/package/lean package/lean
+git clone https://github.com/kuoruan/openwrt-v2ray.git package/v2ray-core
+git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git packageluci-app-v2ray
+
+
 
